@@ -1,0 +1,70 @@
+import cv2
+img = cv2.imread("C:/Users/hp/Documents/c116/images/butterfly.jpg") 
+cv2.imshow("display image",img)
+print(img) 
+gray_img = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY) 
+cv2.imshow("Retro image",gray_img)   
+cv2.waitKey(0)
+cv2.putText(img,
+           "sun",
+           (20,300),
+           cv2.FONT_HERSHEY_COMPLEX,
+           0.5,
+           (255,255,255)
+           )
+cv2.putText(img,
+           " Mercury",
+           (15,250),
+           cv2.FONT_HERSHEY_COMPLEX,
+           0.5,
+           (255,255,255)
+           )
+cv2.putText(img,
+           "Venus",
+           (10,200),
+           cv2.FONT_HERSHEY_COMPLEX,
+           0.5,
+           (255,255,255)
+           )
+cv2.putText(img,
+           "Earth",
+           (30,150),
+           cv2.FONT_HERSHEY_COMPLEX,
+           0.5,
+           (255,255,255)
+           )
+cv2.putText(img,
+           "Mars",
+           (40,100),
+           cv2.FONT_HERSHEY_COMPLEX,
+           0.5,
+           (255,255,255)
+           )
+cv2.putText(img,
+           "Jupiter",
+           (50,50),
+           cv2.FONT_HERSHEY_COMPLEX,
+           0.5,
+           (255,255,255)
+           )
+cv2.putText(img,
+           "Saturn",
+           (10,40),
+           cv2.FONT_HERSHEY_COMPLEX,
+           0.5,
+           (255,255,255)
+           )
+cv2.putText(img,
+           "Uranus",
+           (60,30),
+           cv2.FONT_HERSHEY_COMPLEX,
+           0.5,
+           (255,255,255)
+           )
+cv2.putText(img,
+           "Neptune",
+           (80,20),
+           cv2.FONT_HERSHEY_COMPLEX,
+           0.5,
+           (255,255,255)
+           )
